@@ -15,11 +15,36 @@
 <br> 
 
 ## Interrogating the Data
-### Which schools had the greatest increase in funding between 2015 and 2020? 
+Before manipulting the data, duplicate the cleaned data set to refer to later in case of mishaps. Conduct analysis on a copy of the cleaned data. 
+### Which school had the greatest increase in funding between 2015 and 2020? 
+1. Let's answer this question using percent change to give a fair comparison of changes over time between departments of different sizes. 
+2. Add a new column called "Percent Change Between 15-16 and 19-20," and type "=" to enter the function for percent change: (New - Old)/(Old). 
+  <p align="center"> 
+  <img width="1049" alt="Screenshot of one row, showing the cell entry for percent change. The departments' 2015-2016 funding are subtracted from 2019-2020 data, and the result is divided by the 2019-2020 funding." src="https://user-images.githubusercontent.com/32043036/183222140-a5ef2b47-12c8-4449-95c9-c63cd40a260e.png">
+<p align="left"> 3. Repeat the formula for all rows with funding data by dragging the bottom right corner of the cell down the column. 
+<br>4. Click the percent button to format the column as a percent. Use the buttons to the right to decrease or increase decimal places.
+<p align="center"> 
+ <img width="758" alt="Screenshot pointing to the buttons for formatting as a percent and increasing/decreasing decimal points." src="https://user-images.githubusercontent.com/32043036/183222987-02de1439-ffb8-423c-bfd1-0a5d27096795.png">
+<br> <p align="left"> 5. Turn on filters. In the college/department column, click "Clear," then select the schools/colleges we're interested in. 
+ <p align="center">  <img width="535" alt="Screenshot showing filter settings for the first column. Clear selections, then choose only the colleges of interest." src="https://user-images.githubusercontent.com/32043036/183223635-ea351f8f-a5a4-4639-a94e-8b92a042f2bb.png"> 
+   <p align="left"> <br>
+6. Using filters, sort the percent change column Z-A to see the greatest percent changes on top.
+     <p align="center">
+<img width="277" alt="sort-percent-change" src="https://user-images.githubusercontent.com/32043036/183223798-bfb1787d-052c-4c3c-a554-8897c98bd9fb.png">
+<p align="left"> <br>
 
+  #### *The School of Information Management saw the greatest percent increase in instructional funding at +241%. The only college with less funding in 2019-2020 than in 2015-2016 was the School of Public Health.*
+  
+  
+  <p align="center">
+  <img width="1045" alt="final-percent-change" src="https://user-images.githubusercontent.com/32043036/183224149-5a0dd9ea-bf71-46d2-9819-a68364a58867.png">
+
+  
 ### Did any departments or colleges have less funding in 2020 than in 2015?
 
 ### Which deartment in the College of Engineering had the most funding per student?
+  
+
   
 ### Which three departments within the College of Letters and Science had the most funding for each year?
   
