@@ -33,6 +33,7 @@ Before manipulting the data, duplicate the cleaned data set to refer to later in
 <img width="277" alt="sort-percent-change" src="https://user-images.githubusercontent.com/32043036/183223798-bfb1787d-052c-4c3c-a554-8897c98bd9fb.png">
 <p align="left"> <br>
 
+  
   #### *The School of Information Management saw the greatest percent increase in instructional funding at +241%. The only college with less funding in 2019-2020 than in 2015-2016 was the School of Public Health.*
   
   
@@ -42,9 +43,17 @@ Before manipulting the data, duplicate the cleaned data set to refer to later in
   
 ### Did any departments or colleges have less funding in 2020 than in 2015?
 
-### Which deartment in the College of Engineering had the most funding per student?
+### Which major in the College of Engineering had the most instructional funding per undergraduate student in 2019-2020?
+  1. Find the breakdown of undergraduate enrollment using the Wayback Machine for the [College of Engineering Facts and Figures page](https://engineering.berkeley.edu/about/facts-and-figures/). Enter the data into a new column in the datasheet. 
+    <p align="center">
+      <img width="1118" alt="Screenshot of the Wayback Machine showing the capture for the College of Engineering numbers in Februrary 2021." src="https://user-images.githubusercontent.com/32043036/183275514-bf1abd41-88ce-471c-9f0b-5570b490dfae.png">
+<p align="left"> <br>
+  2. In a new column, calculate instructional dollars per student using a formula.
+  <p align="center">
+    <img width="619" alt="Screenshot of column with funding per student formula: divide the cell with the 2019-2020 instructional funding by the cell with 2019-2020 undergraduate enrollment." src="https://user-images.githubusercontent.com/32043036/183275530-41fb82d8-98f9-418f-ab73-5c24538965f4.png">
+<p align="left">
   
-
+#### *Industrial Engineering and Operations Research had the most instructional funding per undergrad at $44.*
   
 ### Which three departments within the College of Letters and Science had the most funding for each year?
   
