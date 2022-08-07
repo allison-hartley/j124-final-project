@@ -77,9 +77,9 @@ Before manipulting the data, duplicate the cleaned data set to refer to later in
 <p align="left">
   2. Use filters on each school year to sort Z-A and view the greatest value at the top of the column. Be sure to select the entire spreadsheet when turning on filters. 
   <p align="center">
-    <img width="891" alt="Screenshot showing how to filter the columns by sorting from Z ->" src="https://user-images.githubusercontent.com/32043036/183276675-255026a3-9fe4-45b5-b466-aeae975b3be6.png">
+    <img width="891" alt="Screenshot showing how to filter the columns by sorting from Z-A" src="https://user-images.githubusercontent.com/32043036/183276675-255026a3-9fe4-45b5-b466-aeae975b3be6.png">
 
-<p align="left">
+
   
   #### *The departments in the College of Letters and Sciences with the most funding by year were...* <br>
   *2019-2020: Molecular and Cell Biology* <br>
@@ -88,13 +88,16 @@ Before manipulting the data, duplicate the cleaned data set to refer to later in
   *2016-2017: Molecular and Cell Biology* <br>
   *2015-2016: Molecular and Cell Biology*
   
-  ### Question 5: 
+  ### Question 5: Of the departments in the College of Letters and Science with more than $10 thousand in instructional funding for 2019-2020, which had the greatest decrease in funding since 2015-2016? 
+  1. Once again, we will use percent change to answer this question! First, let's hide all rows except for the departments in the College of Letters and Science by highlighting and right-clicking them. <br>
+  2. Now filter for all departments with more than $10 thousand in funding. Turn on filters for the sheet, and then filter by condition under for the 2019-2020 column. Select "Greater than," enter 10, then click "OK."  
+ <p align="center"> <img width="362" alt="Screenshot showing how to filter the 2019-2020 funding column by condition. Select 'Greater than,' then enter $10.," src="https://user-images.githubusercontent.com/32043036/183312975-1c8f3f52-866b-43e6-bf98-daae0b2caf79.png">
+<p align="left">
+ 3. Add a new column and enter a formula to calculate percent change between 2015-2016 and 2019-2020. Fill in the same formula for the rest of the column and format as a percent. <br> 
+  <p align="center"> <img width="1050" alt="Screenshot showing the formula for a new column calculating percent change. The 2015-2016 cell is subtracted from the 2019-2020 cell and divided by the 2015-2016 cell." src="https://user-images.githubusercontent.com/32043036/183313137-2ba37ac2-662d-4674-a7af-298b703b6157.png">
+<p align="left"> <br>
+4. Sort the percent change column from A-Z to display the most negative percent change at the top. 
+   <p align="center"> <img width="1066" alt="Screenshot showing the finished spreadsheet filtered for over $10 thousand and sorted by least to greatest percent change." src="https://user-images.githubusercontent.com/32043036/183313263-a97f2472-bbd8-422b-88e3-6a117b16b38e.png">
+<p align="left"> 
   
-  
-  strategic planning for CoE 
-  PIs?
-  how has the curriculum changed? (MSE 45 lab)
-  how have the courses changed - course offering? 
-  # of units in each department correlated with $$ 
-  
-  
+  #### _Of the departments in the College of Letters and Science with over $10 thousand in instructional funding, the department of Ancient History And Mediterranean Archaeology experienced the most dramatic decrease in funding at a percent change of -63.73%._
