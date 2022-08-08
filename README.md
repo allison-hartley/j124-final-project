@@ -120,8 +120,9 @@ As the Assistant Dean of Academic Affairs, Ms. Shulman could provide context on 
 2. [College of Engineering Equity and Inclusion Strategic Plan](https://engineering.berkeley.edu/wp-content/uploads/2020/12/EIStrategicPlan2020.pdf) <br> The EI Strategic Plan includes a section on educational equity for undergraduate and graduate students, which can provide insights on what the College’s priorities are for students’ academic experience. It would be interesting to ask financial administrators where the budget for these goals comes from.
 
 ## Data Visualization
-  The following is a [scatterplot generated with Data Wrapper](https://www.datawrapper.de/_/Xnvva/) showing student enrollment on the x-axis and instructional funding on the y-axis. The dots are scaled by $ per student, which you can reveal with the tooltip by hovering over a data point. 
+  The following is a scatterplot generated with Data Wrapper showing student enrollment on the x-axis and instructional funding on the y-axis. The dots are scaled by $ per student, which you can reveal with the tooltip by hovering over a data point. 
     <p align="center">
-      ![Scatterplot data visualization with 2020 Student enrollment per major on the x-axis and 2020 instructional funding on the y-axis. The dots are scaled per the instructional dollars per student with industrial engineering and operations research coming in with the highest instructional dollars per student. Mechanical engineering has the least instructional dollars per student.](https://user-images.githubusercontent.com/32043036/183348759-b2c791c7-4dfa-47c2-ae93-7043a5103b9e.png)
+   
+[![Scatterplot data visualization with 2020 Student enrollment per major on the x-axis and 2020 instructional funding on the y-axis. The dots are scaled per the instructional dollars per student with industrial engineering and operations research coming in with the highest instructional dollars per student. Mechanical engineering has the least instructional dollars per student.](https://user-images.githubusercontent.com/32043036/183348759-b2c791c7-4dfa-47c2-ae93-7043a5103b9e.png)](https://www.datawrapper.de/_/Xnvva/)
 
   
