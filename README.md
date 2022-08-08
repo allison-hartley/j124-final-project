@@ -15,7 +15,7 @@
 <br> 
 
 ## Interrogating the Data
-Before manipulting the data, duplicate the cleaned data set to refer to later in case of mishaps. Conduct analysis on a copy of the cleaned data. 
+Before manipulating the data, duplicate the cleaned data set to refer to later in case of mishaps. Conduct analysis on a copy of the cleaned data. 
 ### Question 1: Which school had the greatest increase in funding between 2015 and 2020? 
 1. Let's answer this question using percent change to give a fair comparison of changes over time between departments of different sizes. 
 2. Add a new column called "Percent Change Between 15-16 and 19-20," and type "=" to enter the function for percent change: (New - Old)/(Old). 
@@ -101,3 +101,24 @@ Before manipulting the data, duplicate the cleaned data set to refer to later in
 <p align="left"> 
   
   #### _Of the departments in the College of Letters and Science with over $10 thousand in instructional funding, the department of Ancient History And Mediterranean Archaeology experienced the most dramatic decrease in funding at a percent change of -63.73%._
+  
+  
+  ## Story Pitch
+In Question 3, I found that Industrial Engineering and Operations Research (IEOR) had the most funding per undergraduate student out of the College of Engineering majors. In this story, I’d investigate how this translates to students’ experience: how does the number of classes and units offered per semester compare between each of the majors? What are the student-to-instructor and student-to-GSI ratios? What determines how much money the departments have for instructional funding? 
+
+## Potential Sources: 
+
+1. Dat Le, Assistant Dean, Finance & Administration for the College of Engineering (dat@berkeley.edu) <br> Mr. Le is in charge of developing CoE’s budget process and advises the College’s leadership on how to allocate funds. He could provide insights on how the funds are allocated between instruction and other bins and contextualize where the funds come from. 
+Stacey Shulman, Assistant Dean, Academic Affairs for the College of Engineering (shulman@berkeley.edu and 510 642-5935)
+As the Assistant Dean of Academic Affairs, Ms. Shulman could provide context on the decision-making process of hiring part-time lecturers and GSIs. She may be able to provide information on the Temporary Academic Support (TAS) budget, which funds temporary faculty, graduate student instructors (GSIs), readers, and tutors who assist permanent faculty. Access to the full TAS budget and help interpreting the funding allocations could help determine how students’ academic experience is impacted from the top down. 
+2. Rita d’Escoto, Director, Budget and Financial Operations for Berkeley’s Office of the Vice Chancellor of Finance (rdescoto@berkeley.edu and 510 642-0337) <br> Ms. d’Escoto could provide the campus Chief Financial Office’s perspective on budget allocation and contextualize how the budget is allocated to the different schools and colleges. 
+
+  After talking to these administrators to help interpret the financial budgets, it would be useful to talk to department chairs (eg. IEOR Chair Alper Atamturk - atamturk@berkeley.edu), teaching faculty, and students for their perspectives as direct beneficiaries. 
+
+## Additional Sources:
+1. [College of Engineering Master Plan](http://engineering.berkeley.edu/wp-content/uploads/2020/06/COEMasterPlan2020-1.pdf) <br> The Master Plan lays out the College of Engineering’s visions and proposed projects. The report could provide context on the College’s goals for empowering students.
+2. [College of Engineering Equity and Inclusion Strategic Plan](https://engineering.berkeley.edu/wp-content/uploads/2020/12/EIStrategicPlan2020.pdf) <br> The EI Strategic Plan includes a section on educational equity for undergraduate and graduate students, which can provide insights on what the College’s priorities are for students’ academic experience. It would be interesting to ask financial administrators where the budget for these goals comes from.
+
+## Data Visualization
+  
+  
